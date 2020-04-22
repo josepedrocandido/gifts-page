@@ -10,6 +10,8 @@ In the development of this project I just used HTML5 and CSS as tools.
 - [LinkedIn](https://www.linkedin.com/in/josepedrocandido/)
 - [My Website](https://josepedrocandido.pt/)
 
+***
+
 **Algumas considerações sobre as minhas opções de resolução:**
 
 - Coloquei margens (utilizando um wrapper) na versão Desktop porque o tamanho do ficheiro photoshop era 1200px de largura, portanto optei por impor esse "limite"

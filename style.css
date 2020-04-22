@@ -113,6 +113,11 @@
   font-weight: bold; 
   font-size: 23px;
 }
+@media only screen and (max-width: 414px) {
+  .text__contentTitle {
+    font-size: 13px;
+  }
+}
 
 .products {
   display: flex;
@@ -135,12 +140,27 @@
   font-weight: normal; 
   font-size: 31px;
 }
+@media only screen and (max-width: 414px) {
+  .text__productPromo {
+    font-size: 21px;
+  }
+}
 
 .text__productUnits {
   font-weight: bold; 
   font-size: 35px;
 }
+@media only screen and (max-width: 414px) {
+  .text__productUnits {
+    font-size: 25px;
+  }
+}
+
 .btn-big {
   font-size: 28.29px;
 }
-
+@media only screen and (max-width: 414px) {
+  .btn-big {
+    font-size: 18.29px;
+  }
+}

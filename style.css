@@ -97,7 +97,7 @@ body {
 
 .logo {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 29.92pt;
+  font-size: 29.92px;
   font-weight: bold;
   color: white;
   text-shadow: 1px 0px 0px rgba(0,0,0,0.47);
@@ -116,17 +116,17 @@ body {
 }
 
 .text__promotionAlert-message {
-  font-size: 50.07pt;
+  font-size: 50.07px;
 }
 
 .text__promotionAlert-product {
-  font-size: 54.4pt;
+  font-size: 54.4px;
 }
 
 .text-promotionType {
   color: #88fea7;
   font-weight: normal; 
-  font-size: 35.54pt;
+  font-size: 35.51px;
 }
 
 .btn {
@@ -139,6 +139,8 @@ body {
   margin: 15px;
   cursor: pointer;
   color: #000;
+  font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
-  font-size: 23.76pt; 
+  font-size: 23.76px;
+  text-transform: uppercase; 
 }

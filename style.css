@@ -132,6 +132,8 @@ body {
 }
 
 .products__product {
+  width: 130;
+  height: 206;
   margin: 20px;
   transition: 0.3s;
   cursor: pointer;

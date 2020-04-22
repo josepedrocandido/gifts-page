@@ -6,12 +6,12 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
 .container__header {
-  flex-direction: column;
   height: auto;
   padding: 60px;
   background-image: url('img/header_background.jpg');
@@ -93,9 +93,54 @@
   font-weight: bold;
   font-size: 23.76px;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 @media only screen and (max-width: 414px) {
   .btn {
     font-size: 13.76px;
   }
 }
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 60px;
+}
+
+.text__contentTitle {
+  font-weight: bold; 
+  font-size: 23px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.products__product {
+  margin: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.products__product:hover {
+  transform: scale(1.2);
+}
+
+.text__productPromo {
+  font-weight: normal; 
+  font-size: 31px;
+}
+
+.text__productUnits {
+  font-weight: bold; 
+  font-size: 35px;
+}
+.btn-big {
+  font-size: 28.29px;
+}
+
